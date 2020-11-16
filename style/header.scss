@@ -1,0 +1,36 @@
+/*Set Header Property*/
+.header{
+    color:white;
+    background-color: black;
+    height: 80px;
+    width: 1902px;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+
+    .logo_container{
+      margin: 10px;
+      padding: 10px;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 30px;
+      
+
+      span{
+        font-weight: 800;
+        padding-left: 5px;
+        
+      }
+    }
+
+        .navigation{
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+      }
+
+      .products{
+        padding-left: 20px;
+        color: white;
+      }
+    
+}
